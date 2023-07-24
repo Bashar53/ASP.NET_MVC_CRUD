@@ -84,7 +84,7 @@ namespace DemoProjectMVC.Controllers
             return View(_context.Students.Find(id));
         }
 
-        [HttpDelete, ActionName("Delete")]
+        [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
             var student = _context.Students.Find(id);
