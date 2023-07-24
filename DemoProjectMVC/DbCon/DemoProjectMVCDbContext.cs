@@ -14,10 +14,9 @@ namespace DemoProjectMVC.DbCon
         }
 
         public DbSet<Student> Students { get; set; }
-        public object Student { get; internal set; }
+       
 
         public DbSet<Teacher> Teachers { get; set; }
-        public object Teacher { get; internal set; }
 
         public DbSet<Officer> Officers { get; set; }
 
